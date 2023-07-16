@@ -1,0 +1,26 @@
+ 
+ @tailwind utilities;
+ @import  './header.scss';
+ @import './footer.scss';
+* , body{
+    margin: 0;
+    padding: 1rem; 
+    box-sizing: border-box;
+}
+
+   .btn.primary-btn{
+    @apply bg-red-700;
+   }
+
+ 
+
+   .entry-wrap{
+    box-shadow: none !important;
+   }
+   html body #wpadminbar {
+    z-index: 99999999999 !important;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
